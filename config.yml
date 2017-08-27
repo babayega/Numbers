@@ -1,0 +1,17 @@
+logging:
+  level: INFO
+  loggers:
+    Events: DEBUG
+server:
+  rootPath: /api/*
+dateFormat: yyyy-MM-dd'T'HH:mmZ
+
+# Database settings.
+database:
+    # the name of the JDBC driver, mysql in our case
+    driverClass: com.mysql.jdbc.Driver
+    # the username
+    user: root
+    # the password
+    # the JDBC URL; the database is called DWGettingStarted
+    url: jdbc:mysql://localhost:3306/zyla
